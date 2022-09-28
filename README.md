@@ -8,6 +8,10 @@ This toolbox currently includes the following functions:
 * Segmentation
   - MMCS-Net for coral semantic segmentation.
 
+## Overview
+
+![avatar](./imgs/method.png)
+
 ## Result
 
 ![avatar](./Segmentation/img/img0.png)
