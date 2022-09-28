@@ -5,7 +5,7 @@ This repo holds code for [Combining Photogrammetric Computer Vision and Semantic
 
 ### 1. Preparation
 
-Please go to ["./datasets/README.md"](datasets/README.md) for details.
+Please go to ["./datasets/plot18_2019/README.md"](./dataset/plot18_2019/README.md) for details.
 
 Please go to ["./utils/mypath.py] to modify the path.
 
@@ -19,6 +19,8 @@ Please prepare an environment with python=3.7, and then use the command "pip ins
 ```bash
 python train.py --dataset plot18_2019 --backbone resnet_rgbd --use_balanced_weights --kfoldval True
 ```
+
+A sampled dataset can be downloaded from [here](https://drive.google.com/file/d/1T6cV43Uo5k5UbqJegOfwvHL-3MM0VEE8/view?usp=sharing).
 
 ## Model
 MMCS-Net
