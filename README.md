@@ -6,7 +6,7 @@ This toolbox currently includes the following functions:
 * Photogrammetry
   - SIFT feature extraction and AdaLAM.
 * Segmentation
-  - MMCS-Net for coral semantic segmentation.
+  - MMCS-Net(Multi-Modal Coral Segmentation Network) for coral semantic segmentation.
 
 ## Overview
 
