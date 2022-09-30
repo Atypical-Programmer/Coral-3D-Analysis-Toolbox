@@ -20,7 +20,7 @@ Please prepare an environment with python=3.7, and then use the command "pip ins
 python train.py --dataset plot18_2019 --backbone resnet_rgbd --use_balanced_weights --kfoldval True
 ```
 
-A sampled dataset can be downloaded from [here](https://drive.google.com/file/d/1T6cV43Uo5k5UbqJegOfwvHL-3MM0VEE8/view?usp=sharing). If you need the entire dataset, you can ask the author for it.
+A sampled dataset can be downloaded from [here](https://drive.google.com/file/d/1T6cV43Uo5k5UbqJegOfwvHL-3MM0VEE8/view?usp=sharing).
 
 ## Model
 MMCS-Net

@@ -17,4 +17,4 @@ This toolbox currently includes the following functions:
 ![avatar](./Segmentation/img/img0.png)
 
 ## Note
-If you need more data or codes, please contact with authors in future.
+If you have any questions, please feel free to contact me.
