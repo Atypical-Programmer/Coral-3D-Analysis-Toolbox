@@ -26,9 +26,16 @@ A sampled dataset can be downloaded from [here](https://drive.google.com/file/d/
 MMCS-Net
 ![avatar](./img/img2.png)
 
+## Description
+To generate the dataset for training, the orthophoto is clipped into a set of patches, each of which is extracted from a sliding window swiped over the whole tile at a stride of 224 pixels. This approach guarantees that all pixels at the edge of a patch become central pixels in subsequent patches，as Diakogiannis did Remote Sensing Image Segmentation  in 2020[1]. 
 
 ## Result
 ![avatar](./img/img1.png)
+* Model A - DeepLabv3+
+* Model B - DeepLabv3+ (RGB-D)
+* Model C - DeepLabv3+ (ShapeConv)
+
 
 ## Reference
-* [Deeplab V3+](https://github.com/jfzhang95/pytorch-deeplab-xception)
+1. Diakogiannis, F. I., Waldner, F., Caccetta, P., & Wu, C. (2020). ResUNet-a: A deep learning framework for semantic segmentation of remotely sensed data. ISPRS Journal of Photogrammetry and Remote Sensing, 162, 94-114.
+1. [Deeplab V3+](https://github.com/jfzhang95/pytorch-deeplab-xception)
