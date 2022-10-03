@@ -16,5 +16,7 @@ This toolbox currently includes the following functions:
 
 ![avatar](./Segmentation/img/img0.png)
 
+![](./imgs/demo.gif)
+
 ## Note
 If you have any questions, please feel free to contact me.
