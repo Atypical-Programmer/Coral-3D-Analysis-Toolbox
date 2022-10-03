@@ -29,6 +29,9 @@ MMCS-Net
 ## Description
 To generate the dataset for training, the orthophoto is clipped into a set of patches, each of which is extracted from a sliding window swiped over the whole tile at a stride of 224 pixels. This approach guarantees that all pixels at the edge of a patch become central pixels in subsequent patches，as Diakogiannis did Remote Sensing Image Segmentation  in 2020[1]. 
 
+[metrics.py](./utils/metrics.py) is for evaluation. In the validation procedure, a five-fold cross-validation is performed. The data used to train the model are split into five equal parts (folds). Each fold was used once as a validation while the remaining folds were used to train and run the model. The model was run five times and each time the accuracy and loss were calculated. As for the evaluation metrics, the results are reported using Mean Pixel Accuracy (mPA) and Mean Region Intersection over Union (mIoU).
+
+
 ## Result
 ![avatar](./img/img1.png)
 * Model A - DeepLabv3+
