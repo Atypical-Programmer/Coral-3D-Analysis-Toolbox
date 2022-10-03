@@ -1,5 +1,5 @@
 # Coral-3D-Analysis-Toolbox
-A toolbox to analyse coral reefs in 3D perspective.
+A toolbox to analyse coral reefs in 3D perspective. This may be the first approach to combine photogrammetry and semantic segmentation on coral reef analysis.
 
 ## Introduction
 This toolbox currently includes the following functions:
