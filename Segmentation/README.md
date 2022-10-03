@@ -35,6 +35,12 @@ To generate the dataset for training, the orthophoto is clipped into a set of pa
 * Model B - DeepLabv3+ (RGB-D)
 * Model C - DeepLabv3+ (ShapeConv)
 
+| Models   |      mPA      |  mIoU |
+|----------|:-------------:|------:|
+| Model A |  89.9% | 80.5% |
+| Model B |    90.8%   |  82.1% |
+| Model C | 91.6% |  83.5% |
+| MMCS-Net | 92.2% |  84.7% |
 
 ## Reference
 1. Diakogiannis, F. I., Waldner, F., Caccetta, P., & Wu, C. (2020). ResUNet-a: A deep learning framework for semantic segmentation of remotely sensed data. ISPRS Journal of Photogrammetry and Remote Sensing, 162, 94-114.
