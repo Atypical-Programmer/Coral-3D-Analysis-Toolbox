@@ -5,7 +5,9 @@ A toolbox to analyse coral reefs in 3D perspective. This may be the first approa
 This toolbox currently includes the following functions:
 * Photogrammetry
   - SIFT feature extraction and AdaLAM.
+  - OpenDroneMap
 * Segmentation
+  - DeepLabv3+
   - MMCS-Net(Multi-Modal Coral Segmentation Network) for coral semantic segmentation.
 
 ## Overview
@@ -20,4 +22,4 @@ This toolbox currently includes the following functions:
 ![](./imgs/demo.gif)
 
 ## Note
-If you have any questions, please feel free to contact me.
+If you have any questions, please feel free to contact us.
