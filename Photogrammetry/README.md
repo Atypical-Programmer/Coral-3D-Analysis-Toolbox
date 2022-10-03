@@ -7,7 +7,7 @@ The SIFT is modified as RootSIFT.
 The installation of AdaLAM follows [AdaLAM](https://github.com/cavalli1234/AdaLAM).
 
 ## Reconstruction
-The 3D reconstruction is based on [OpenDroneMap](https://opendronemap.org/). It is a program that runs in the command line.
+The 3D reconstruction is based on [OpenDroneMap](https://opendronemap.org/). It is a program that runs in the command line. Its release can be found [here](https://github.com/OpenDroneMap/ODM/releases).
 
 Here is an example:
 ```bash
